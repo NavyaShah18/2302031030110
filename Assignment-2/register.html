@@ -1,156 +1,273 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="top_header">
-                        <p>Enjoy Free Shipping On All Orders</p>
-                    </div>
-                    <div class="bottom_header">
-                        <div class="bottom_logo">
-                            <img src="./assets/gallery/Logo.png" alt="logo">
-                        </div>
-                        <div class="nav_items">
-                            <ul class="nav_links">
-                                <li>Collection</li>
-                                <li>New In</li>
-                                <li>Lilac Era</li>
-                                <li>Plus Size</li>
-                                <li>Sustainablity</li>
-                            </ul>
-                        </div>
-                        <div class="nav_buttons">
-                            <ul class="nav_item">
-                                <li><i class="fa-solid fa-magnifying-glass"></i></li>
-                                <li><i class="fa-solid fa-user"></i></li>
-                                <li><i class="fa-regular fa-heart"></i></li>
-                                <li><i class="fa-solid fa-bag-shopping"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <!-- Ends Header -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <!-- Register Now -->
-    <section class="register">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="register_now">
-                        <img src="./assets/gallery/register_now.png" alt="Register Now">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="create_account">
-                        <h1>Create Account</h1>
-                        <div class="account_form">
-                            <form>
-                                <input type="text" placeholder="First Name">
-                                <input type="text" placeholder="Last Name">
-                                <input type="email" placeholder="Email">
-                                <input type="password" placeholder="Password">
-                                <input type="submit" value="Register Now">
-                            </form>
-                        </div>
-                        <div class="have_account">
-                            <p>Already Have An Account ?</p>
-                            <a href="./login.html">Log in</a>
-                            <span>Or</span>
-                            <div class="connect_icons">
-                                <a href="#"><img src="./assets/gallery/apple.png" alt="apple logo"></a>
-                                <a href="#"><img src="./assets/gallery/google.png" alt="google logo"></a>
-                                <a href="#"><img src="./assets/gallery/facebook.png" alt="facebook logo"></a>
-                            </div>
-                            <span class="policy">by clicking register now’you agree to <a href="#">terms & conditions</a> and <a href="#">privacy policy.</a>  </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Ends Register Now -->
+    <link rel="stylesheet" href="./assests/global.css" />
+    <link rel="stylesheet" href="./assests/register.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=League Spartan:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktopregister01">
+      <img
+        class="desktopregister01-child"
+        alt=""
+        src="./gallery/frame-26086866@2x.png"
+      />
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer_wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="left_corner">
-                            <div class="join_wrap">
-                                <h2>Join Our Club, Get 15% Off For Your Birthday</h2>
-                                <div class="newsleter">
-                                    <input type="email" name="newsletter" id="footer_newsletter">
-                                    <input type="checkbox" name="news_check" id="news_check">
-                                    <label for="news_check">By Submittng your email, you agree to receive advertising emails from Lilac.</label>
-                                </div>
-                            </div>
-                            <div class="social_media">
-                                <ul class="media_items">
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="right_corner">
-                            <div class="footer_content">
-                                <h3>About Lilac</h3>
-                                <ul class="content_items">
-                                    <li><a href="#">Collection</a></li>
-                                    <li><a href="#">Sustainability</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Support System</a></li>
-                                    <li><a href="#">Terms & Condition</a></li>
-                                    <li><a href="#">Copyright Notice</a></li>
-                                </ul>
-                            </div>
-                            <div class="footer_content">
-                                <h3>Help & Support</h3>
-                                <ul class="content_items">
-                                    <li><a href="#">Orders & Shipping</a></li>
-                                    <li><a href="#">Returns & Refunds</a></li>
-                                    <li><a href="#">FAQs</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </div>
-                            <div class="footer_content">
-                                <h3>Join Up</h3>
-                                <ul class="content_items">
-                                    <li><a href="#">Lilac Club</a></li>
-                                    <li><a href="#">Careers</a></li>
-                                    <li><a href="#">Visit Us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <i class="fa-regular fa-copyright"></i>
-                        <p class="copyright">2024 Lilac. All Rights Reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Ends Footer -->
+      <div class="create-account">Create Account</div>
+      <div class="buttoncomp12">
+        <img class="add-icon24" alt="" src="./gallery/add2.svg" />
 
-</body>
+        <div class="add-to-cart12">Register Now</div>
+        <img class="add-icon24" alt="" src="./gallery/add2.svg" />
+      </div>
+      <div class="already-have-an-account-parent">
+        <div class="already-have-an">Already have an account?</div>
+        <div class="buttoncomp13">
+          <img class="add-icon24" alt="" src="./gallery/add.svg" />
+
+          <div class="add-to-cart12">log in</div>
+          <img class="add-icon24" alt="" src="./gallery/add.svg" />
+        </div>
+      </div>
+      <div class="header2">
+        <div class="hgreen-line2">
+          <div class="text2"></div>
+        </div>
+        <div class="enjoy-free-shipping2">
+          Enjoy Free Shipping On All Orders
+        </div>
+        <div class="header-footer-texts-parent6">
+          <div class="header-footer-texts36">
+            <div class="collection37"><a href="./shop-all-filters.html">Collection</a></div>
+          </div>
+          <div class="header-footer-texts36">
+            <div class="collection38"><a href="./landing.html">New In</a></div>
+          </div>
+          <div class="header-footer-texts36">
+            <div class="collection39"><a href="./landing.html">Lilac Era</a></div>
+          </div>
+          <div class="header-footer-texts36">
+            <div class="collection40"><a href="./landing.html">Plus Size</a></div>
+          </div>
+          <div class="header-footer-texts40">
+            <div class="collection41"><a href="./sustainability.html">Sustainability</a></div>
+          </div>
+        </div>
+        <div class="header-search-icon-parent1">
+          <img
+            class="header-search-icon3"
+            alt=""
+            src="./gallery/header-search-icon1.svg"
+          />
+
+          <div class="header-profile-icon2">
+            <img class="person-4-icon7" alt="" src="./gallery/person-4.svg" />
+          </div>
+          <img
+            class="header-search-icon3"
+            alt=""
+            src="./gallery/header-favorite-icon2.svg"
+          />
+
+          <div class="header-bag-icon3">
+            <img
+              class="person-4-icon7"
+              alt=""
+              src="./gallery/shopping-bag.svg"
+            />
+          </div>
+        </div>
+        <div class="logo2">
+          <div class="modimal-container">
+            <b class="modimal2">LILAC</b>
+            <img class="subtract-icon2" alt="" src="./gallery/subtract1.svg" />
+          </div>
+          <div class="women-clothing2">women clothing</div>
+        </div>
+      </div>
+      <div class="by-clicking-register-container">
+        <span>by clicking register now’you agree to </span>
+        <span class="terms-conditions">terms& conditions</span>
+        <span> and </span>
+        <span class="terms-conditions">privacy policy</span>
+        <span class="span">. </span>
+      </div>
+      <div class="inputorginal-parent1">
+        <div class="inputorginal4">
+          <img class="person-4-icon8" alt="" src="./gallery/person-43.svg" />
+
+          <div class="label4">first name</div>
+          <img class="person-4-icon8" alt="" src="./gallery/close.svg" />
+        </div>
+        <div class="inputorginal4">
+          <img class="person-4-icon8" alt="" src="./gallery/person-43.svg" />
+
+          <div class="label4">last name</div>
+          <img class="person-4-icon8" alt="" src="./gallery/close.svg" />
+        </div>
+        <div class="inputorginal4">
+          <img class="person-4-icon8" alt="" src="./gallery/person-43.svg" />
+
+          <div class="label4">email</div>
+          <img class="person-4-icon8" alt="" src="./gallery/close.svg" />
+        </div>
+        <div class="inputorginal4">
+          <img class="person-4-icon8" alt="" src="./gallery/person-43.svg" />
+
+          <div class="label4">password</div>
+          <img
+            class="visibility-off-icon1"
+            alt=""
+            src="./gallery/visibility-off.svg"
+          />
+        </div>
+      </div>
+      <div class="or1">or</div>
+      <div class="sign-in-method">
+        <img
+          class="socialmedia-sign-up-icons3"
+          alt=""
+          src="./gallery/socialmedia-sign-up-icons.svg"
+        />
+
+        <img
+          class="socialmedia-sign-up-icons4"
+          alt=""
+          src="./gallery/socialmedia-sign-up-icons1.svg"
+        />
+
+        <div class="socialmedia-sign-up-icons5">
+          <img class="bg-icon1" alt="" src="./gallery/bg.svg" />
+
+          <img class="apple-icon1" alt="" src="./gallery/apple.svg" />
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="footer-text-box-1-container">
+          <div class="footer-text-box-12">
+            <b class="about-modimal2">About Lilac</b>
+            <div class="header-footer-texts-parent7">
+              <div class="header-footer-texts41">
+                <div class="collection42">Collection</div>
+              </div>
+              <div class="header-footer-texts41">
+                <div class="collection42">Sustainability</div>
+              </div>
+              <div class="header-footer-texts41">
+                <div class="collection42">Privacy Policy</div>
+              </div>
+              <div class="header-footer-texts41">
+                <div class="collection42">Support System</div>
+              </div>
+              <div class="header-footer-texts41">
+                <div class="collection42">Terms & Condition</div>
+              </div>
+              <div class="header-footer-texts41">
+                <div class="collection42">Copyright Notice</div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-text-box-22">
+            <b class="about-modimal2">Help & Support</b>
+            <div class="header-footer-texts-parent7">
+              <div class="header-footer-texts47">
+                <div class="collection42">Orders & Shipping</div>
+              </div>
+              <div class="header-footer-texts47">
+                <div class="collection42">Returns & Refunds</div>
+              </div>
+              <div class="header-footer-texts47">
+                <div class="collection42">FAQs</div>
+              </div>
+              <div class="header-footer-texts47">
+                <div class="collection42">Contact Us</div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-text-box-32">
+            <b class="join-up2">Join Up</b>
+            <div class="header-footer-texts-parent9">
+              <div class="header-footer-texts47">
+                <div class="collection42">Lilac Club</div>
+              </div>
+              <div class="header-footer-texts47">
+                <div class="collection42">Careers</div>
+              </div>
+              <div class="header-footer-texts47">
+                <div class="collection42">Visit Us</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="footer-chat-box2"
+          alt=""
+          src="./gallery/footer-chat-box.svg"
+        />
+
+        <div class="copyright2">
+          <img class="person-4-icon7" alt="" src="./gallery/copyright.svg" />
+
+          <div class="modimal-all-rights2">
+            2024 Lilac. All Rights Reserved.
+          </div>
+        </div>
+        <div class="footer-social-media-icons2">
+          <img
+            class="header-search-icon3"
+            alt=""
+            src="./gallery/social-media.svg"
+          />
+
+          <img class="social-media9" alt="" src="./gallery/social-media1.svg" />
+
+          <img
+            class="header-search-icon3"
+            alt=""
+            src="./gallery/social-media2.svg"
+          />
+
+          <img class="social-media11" alt="" src="./gallery/social-media3.svg" />
+        </div>
+        <b class="join-our-club2"
+          >Join our club, get 15% off for your Birthday</b
+        >
+        <div class="inputorginal-parent2">
+          <div class="inputorginal8">
+            <img class="person-4-icon8" alt="" src="./gallery/person-42.svg" />
+
+            <div class="label4">Enter Your Email Address</div>
+            <img
+              class="visibility-off-icon1"
+              alt=""
+              src="./gallery/arrow-forward.svg"
+            />
+          </div>
+          <div class="frame-wrapper2">
+            <div class="checkmark-approvalsquare-container">
+              <div class="checkmark-approvalsquare2"></div>
+              <div class="by-submittng-your2">
+                By Submittng your email, you agree to receive advertising emails
+                from Lilac.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
